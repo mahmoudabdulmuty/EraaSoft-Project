@@ -22,9 +22,7 @@ body {
 }
 
 .main-header__upper-nav {
-    width: 1366px;
-    height: 50px;
-    padding: 10px 98px 8px 106.8px;
+    padding: 10px;
     background-color: #c4398c;
 }
 
@@ -40,10 +38,6 @@ a {
     border-radius: 50%;
 }
 
-.mx-1 {
-    margin-left: 0 !important;
-}
-
 .home-word {
     color: #c4398c !important;
 }
@@ -55,7 +49,15 @@ a {
 }
 
 .about-us__img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+
+/*  */
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}  
