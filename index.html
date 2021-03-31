@@ -15,121 +15,56 @@
 
 <body dir="rtl">
   <!-- header start -->
-  <header class="main-header">
-    <!-- upper-nav start -->
-    <div class="main-header__upper-nav">
-      <div class="container">
-        <div class="row align-items-center">
-
-          <div class="col-md-9 contact-info d-flex justify-content-start text-light">
-            <a class="col-md-3" href="tel:+01124244939">phone: 01124244939</a>
-            <a class="col-md-3" href="mailto:example@yourmail.com" target="_blank">example@yourmail.com</a>
-          </div>
-
-          <div class="col-md-3 social-icons d-flex justify-content-end text-light">
-            <a class="social-icons__icon mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="social-icons__icon mx-1" href="#"><i class="fab fa-twitter"></i></a>
-            <a class="social-icons__icon mx-1" href="#"><i class="fab fa-instagram"></i></a>
-            <a class="social-icons__icon mx-1" href="#"><i class="fab fa-youtube"></i></a>
-          </div>
-
-        </div>
+  <header id="top-bar" class="d-felx align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div id="contact-info" class="col-4 d-flex align-items-center justify-content-between">
+        <a href="tel:+01124244939">phone: 01124244939</a>
+        <a href="mailto:example@yourmail.com" target="_blank">example@yourmail.com</a>
+      </div>
+      <div id="social-links" class="col-6 d-none d-md-flex align-items-center justify-content-end">
+        <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
+        <a class="youtube" href="#"><i class="fab fa-youtube"></i></a>
       </div>
     </div>
-    <!-- upper-nav end -->
-    <!-- nav start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white container">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="./content/assets/images/main-logo.png" height="50" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active home-word" aria-current="page" href="#">الرئيسية</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">من نحن</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                الأنواع والأصناف
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">اتصل بنا</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- nav end -->
   </header>
   <!-- header end -->
-
-
-  <div id="owl-demo" class="owl-carousel owl-theme">
- 
-    <div class="item"><img src="content/assets/images/backgrounds/new.jpg" alt="The Last of us"></div>
-    <div class="item"><img src="content/assets/images/backgrounds/seafood-2.jpg" alt="GTA V"></div>
-    <div class="item"><img src="content/assets/images/backgrounds/seafood-3.jpg" alt="Mirror Edge"></div>
-   
-  </div>
-
-
-
+  <!-- nav start -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="#">
+          <img src="content/assets/images/main-logo.png" alt="">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse d-flex justify-content-end align-items-center" id="navbarResponsive">
+        <ul class="navbar-nav d-flex justify-content-around">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">الأنواع والاصناف</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">اتصل بنا</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+  <!-- bg start -->
+  <section id="bg-section">
+    <div class="overlay"></div>
+  </section>
+  <!-- bg end -->
   
-
-  <!-- main start -->
-  <main>
-    <section class="about-us my-4">
-      <div class="about-us__upper-part text-center">
-        <h2 class="fw-bold mb-4">من نحن</h2>
-        <img src="content/assets/images/title.png" alt="">
-      </div>
-      <div class="about-us__lower-part ">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-5">
-              <div class="about-us__details">
-                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص
-                  بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ...
-                  وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة
-                  للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او
-                  الانتقادات للتصميم الاساسي.
-
-                  وخلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي
-                  منذ العام 45 قبل الميلاد. من كتاب "حول أقاصي الخير والشر"
-                </p>
-                <button class="btn btn-custom">اقرأ المزيد</button>
-              </div>
-            </div>
-            <div class="col-5">
-              <img class="about-us__img" src="content/assets/images/about-us.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- main end -->
-
- 
-
-
 
   <script src="content/js/vendor/jquery-3.6.0.min.js"></script>
   <script src="content/js/vendor/owl.carousel.min.js"></script>
