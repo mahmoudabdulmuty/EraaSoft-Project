@@ -170,18 +170,18 @@ header#top-bar {
 }
 
 .owl-nav button {
-    position: absolute!important;
-    top: 50%!important;
-    color: #c4398c!important;
-    background: none!important;
-    width: 50px!important;
-    line-height: 50px!important;
-    border: 2px solid #c4398c!important;
-    font-size: 40px!important;
-    border-radius: 50%!important;
-    transform: rotate(180deg)!important;
-    text-align: center!important;
-    font-weight: bolder!important;
+    position: absolute !important;
+    top: 50% !important;
+    color: #c4398c !important;
+    background: none !important;
+    width: 50px !important;
+    line-height: 50px !important;
+    border: 2px solid #c4398c !important;
+    font-size: 40px !important;
+    border-radius: 50% !important;
+    transform: rotate(180deg) !important;
+    text-align: center !important;
+    font-weight: bolder !important;
 }
 
 .owl-prev {
