@@ -232,27 +232,19 @@ header#top-bar {
 .pricing {
     width: 100%;
     height: 100vh;
-    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("../assets/images/backgrounds/new.jpg");
-}
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.555);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)), 
+    url("../assets/images/backgrounds/new.jpg");
 }
 
 .pricing__title {
     text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 35%;
+    margin-bottom: 74px;
+    margin-top: 81px;
+    display: inline-block;
+    margin-left: 34%;
 }
 
 .pricing__title h2 {
