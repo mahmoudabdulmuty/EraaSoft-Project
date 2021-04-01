@@ -203,24 +203,62 @@ header#top-bar {
     text-align: center;
     margin: 76px 0 109px 0;
 }
-.about-us__title h2{
+
+.about-us__title h2 {
     color: #191414;
     font-size: 50px;
     font-weight: bold;
 }
-.about-us__content{
+
+.about-us__content {
     margin-bottom: 126px;
 }
-.about-us__content .btn-custom{
+
+.about-us__content .btn-custom {
     background-color: #c4398c;
     color: #fff;
     margin-left: 70%;
     padding: 10px 40px;
 }
-.about-us__content img{
+
+.about-us__content img {
     max-width: 469px;
     max-height: 447px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* about-us end */
+/* pricing start */
+.pricing {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../assets/images/backgrounds/new.jpg");
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.555);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pricing__title {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.pricing__title h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* pricing end */
