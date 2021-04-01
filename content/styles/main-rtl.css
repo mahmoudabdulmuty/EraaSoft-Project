@@ -193,3 +193,34 @@ header#top-bar {
 }
 
 /* bg-section end */
+
+/* about-us start */
+#about-us {
+    background-color: #fff;
+}
+
+.about-us__title {
+    text-align: center;
+    margin: 76px 0 109px 0;
+}
+.about-us__title h2{
+    color: #191414;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about-us__content{
+    margin-bottom: 126px;
+}
+.about-us__content .btn-custom{
+    background-color: #c4398c;
+    color: #fff;
+    margin-left: 70%;
+    padding: 10px 40px;
+}
+.about-us__content img{
+    max-width: 469px;
+    max-height: 447px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* about-us end */
