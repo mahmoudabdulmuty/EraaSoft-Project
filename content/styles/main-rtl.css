@@ -256,15 +256,30 @@ header#top-bar {
     max-width: 322px;
     max-height: 508px;
 }
+.card-title{
+    text-align: right;
+    border-bottom: 2px solid #c4398c;
+    padding: .45rem 0;
+    font-weight: bold;
+}
 .pricing__cards img{
     max-width: 310px;
     max-height: 248px;
 }
-.pricing .btn-custom{
+.card-body .btn-custom{
+    color: #fff;
+    background-color: #c4398c;
+}
+.card-price{
+    color: #c4398c;
+    direction: ltr;
+}
+.pricing__btn-custom{
     color: #fff;
     background-color: #c4398c;
     margin: 5% 0 5% 43%;
     padding: 10px 40px;
 }
+
 
 /* pricing end */
