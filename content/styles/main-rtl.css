@@ -22,7 +22,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 header#top-bar {
@@ -280,6 +280,16 @@ header#top-bar {
     margin: 5% 0 5% 43%;
     padding: 10px 40px;
 }
-
-
 /* pricing end */
+
+/* footer start */
+
+footer{
+    background-color: #c4398c;
+    padding: 10px 0;
+}
+footer p{
+    margin-bottom: 0;
+}
+
+/* footer end */
