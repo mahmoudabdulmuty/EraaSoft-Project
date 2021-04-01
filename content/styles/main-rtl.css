@@ -22,7 +22,7 @@ body {
 }
 
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 header#top-bar {
@@ -235,8 +235,8 @@ header#top-bar {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)), 
-    url("../assets/images/backgrounds/new.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)),
+        url("../assets/images/backgrounds/new.jpg");
 }
 
 .pricing__title {
@@ -252,69 +252,82 @@ header#top-bar {
     font-size: 50px;
     font-weight: bold;
 }
-.card-body{
+
+.card-body {
     max-width: 322px;
     max-height: 508px;
 }
-.card-title{
+
+.card-title {
     text-align: right;
     border-bottom: 2px solid #c4398c;
     padding: .45rem 0;
     font-weight: bold;
 }
-.pricing__cards img{
+
+.pricing__cards img {
     max-width: 310px;
     max-height: 248px;
 }
-.card-body .btn-custom{
+
+.card-body .btn-custom {
     color: #fff;
     background-color: #c4398c;
 }
-.card-price{
+
+.card-price {
     color: #c4398c;
     direction: ltr;
 }
-.pricing__btn-custom{
+
+.pricing__btn-custom {
     color: #fff;
     background-color: #c4398c;
     margin: 5% 0 5% 43%;
     padding: 10px 40px;
 }
+
 /* pricing end */
 /* contact-us start */
-.contact-us{
+.contact-us {
     padding: 62px 0 123px 0;
 }
-.contact-us__title{
-   text-align: center;
-   margin-bottom: 44px;
+
+.contact-us__title {
+    text-align: center;
+    margin-bottom: 44px;
 
 }
-.contact-us__title h2{
-    color:#c4398c;
+
+.contact-us__title h2 {
+    color: #c4398c;
     font-weight: bold;
     font-size: 31px;
     margin-bottom: 20px;
 }
-.email-form__btn-custom{
+
+.email-form__btn-custom {
     color: #fff;
     background-color: #c4398c;
     margin-left: 69%;
     padding: 14px 50px;
 }
-iframe{
+
+iframe {
     width: 356px;
     height: 321px;
-    border:0;
+    border: 0;
 }
+
 /* contact-us end */
 
 /* footer start */
-.footer{
+.footer {
     background-color: #c4398c;
     padding: 10px 0;
 }
-.footer p{
+
+.footer p {
     margin-bottom: 0;
 }
 
